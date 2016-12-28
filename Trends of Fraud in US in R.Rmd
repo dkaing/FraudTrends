@@ -11,28 +11,6 @@ On average, fraud costs approximately 5% of an organization annual revenue [1]. 
 # Background Research & Questions
 As we enter the exciting era of big data, there is an enormous amount of information and tools that can help drive effective decisions. However, one of the biggest concerns is fraud. According to a survey conducted by Ernst & Young [2], one-third of global organizations aren't prepared for cyber breach. This poses a concern for the security of confidential data and it affects many organizations ranging from pharmaceutical industry to financial services. In this paper, we focus on the impact of fraud in the United States. We use linear regression to examine the trends of the last 6 years (2010-2015) of fraud data retrieved from Federal Trade Commission website [3]. We then used these trends to project into the next 6 years (2016-2021). We also examine the economic costs of fraud and the targeted age groups. 
 
-#S.M.A.R.T Questions
-Our objective is to answer the following questions: What is the past and future trend of the different types of fraud for the different states? What is the past and future trend of the economic costs of fraud in the US? What age group(s) is most targeted in the future? Our questions follow the SMART model:  
-
-## Specific 
-- Who? People of the US 
-- What? Impact of frauds
-- Where? U.S.
-- When? Using the last 6 years (2010 - 2015) to predict the next 6 years (2016 - 2020).
-    
-## Measurable 
-- Data for the number frauds per state are available, along with economic loss data  
-    
-## Attainable   
-- Data are available  
-    
-## Realistic  
-- Data are collected by the Federal Trade Commission
-    
-## Timely  
-- Can be completed in a timely manner  
-
-
 # Tools Used
 This project is completed in both R and Python. We apply linear regression to build our models. To visualize our results, we use ggplot for both R and Python. For our analysis in python, we use the following packages: pandas, numpy, statsmodels, ggplot, collections, matplotlib, and warnings.
 
